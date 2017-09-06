@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 4 elements to &apos;Polymorph&apos;&#x0D;&#x0A;- Original project: &apos;PracticeMid&apos;&#x0D;&#x0A;- Destination element: &apos;Polymorph&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Dog.java&#x0D;&#x0A;     runAnimal.java&#x0D;&#x0A;     Animal.java&#x0D;&#x0A;     Bird.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="=Polymorph" element1="Dog.java" element2="runAnimal.java" element3="Animal.java" element4="Bird.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1494546831962" units="0" version="1.0"/>
+</session>

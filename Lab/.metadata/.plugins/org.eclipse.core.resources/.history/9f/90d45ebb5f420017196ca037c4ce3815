@@ -1,0 +1,6 @@
+package com.example.mathewholden.lab8;
+public abstract class DiscountPolicy {
+	 abstract float computeDiscount(int count, float itemCost);
+	
+
+}

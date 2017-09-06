@@ -1,0 +1,26 @@
+
+public class RoomOccupancy 
+{
+	public int numberinRoom;
+	public static int totalNumber;
+
+	public RoomOccupancy() {
+		numberinRoom = 0;
+		totalNumber = 0;
+	}
+
+	public int addOneToRoom() {
+		totalNumber = numberinRoom + 1;
+		return totalNumber;
+	}
+
+	public int removeOneFromRoom() {
+		totalNumber = numberinRoom - 1;
+		if (totalNumber < 0) {
+			System.out.println("Cannot equal negative");
+		}
+
+		return totalNumber;
+
+	}
+}

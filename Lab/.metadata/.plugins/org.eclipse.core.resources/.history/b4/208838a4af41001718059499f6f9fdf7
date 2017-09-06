@@ -1,0 +1,6 @@
+
+public abstract class DiscountPolicy {
+	abstract int computeDiscount(int count, float itemCost);
+	
+
+}

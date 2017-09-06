@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;InClassPoly/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Polymorph&apos;&#x0D;&#x0A;- Destination element: &apos;InClassPoly/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Dog.java&#x0D;&#x0A;     runAnimal.java&#x0D;&#x0A;     Bird.java&#x0D;&#x0A;     Animal.java" description="Copy files" destination="=InClassPoly/src&lt;" element1="Dog.java" element2="runAnimal.java" element3="Bird.java" element4="Animal.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494547510076" units="0" version="1.0"/>
+</session>

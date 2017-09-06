@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;Lab8/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Lab8&apos;&#x0D;&#x0A;- Destination element: &apos;Lab8/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     DiscountPolicy.java&#x0D;&#x0A;     BulkDiscount.java&#x0D;&#x0A;     BuyNItemsGetOneFree.java&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="/src&lt;" element1="DiscountPolicy.java" element2="BulkDiscount.java" element3="BuyNItemsGetOneFree.java" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1495836459736" units="0" version="1.0"/>
+</session>

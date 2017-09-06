@@ -1,0 +1,22 @@
+
+public class Problem1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		RoomOccupancy room1 = new RoomOccupancy();
+		RoomOccupancy room2 = new RoomOccupancy();
+		RoomOccupancy total = new RoomOccupancy();
+room1.setNumberinRoom(4);
+		room2.setNumberinRoom(3);
+		room1.removeOneFromRoom();
+		room2.removeOneFromRoom();
+		room1.getNumber();
+		room2.getNumber();
+total.getTotal(room1 + room2);
+	
+	
+	}
+
+
+}

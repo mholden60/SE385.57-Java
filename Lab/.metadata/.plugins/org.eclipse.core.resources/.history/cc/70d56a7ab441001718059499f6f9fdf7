@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+BulkDiscount test = new BulkDiscount(5, 20);
+BuyNItemsGetOneFree free = new BuyNItemsGetOneFree(2);
+
+System.out.println(test);
+System.out.println(free);
+	}
+
+}

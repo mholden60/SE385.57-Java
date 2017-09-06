@@ -1,0 +1,40 @@
+
+public class RoomOccupancy 
+{
+	public int numberinRoom;
+	public static int totalNumber;
+
+	public RoomOccupancy() {
+		numberinRoom = 0;
+		totalNumber = 0;
+	}
+
+	public void addOneToRoom() {
+	numberinRoom ++;
+		
+	}
+
+	public void removeOneFromRoom() {
+		if(numberinRoom > 0)
+		{
+			numberinRoom --;
+		}
+		else
+		{
+		System.out.println("No one in room");
+		}
+
+	}
+	public int getNumber()
+	{
+		
+		System.out.println(numberinRoom);
+		return numberinRoom;
+	}
+	public static int getTotal(int totalNumber)
+	{
+		totalNumber = RoomOccupancy.getTotal(1);
+		System.out.println(totalNumber);
+		return totalNumber;
+	}
+}

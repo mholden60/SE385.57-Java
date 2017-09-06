@@ -1,0 +1,19 @@
+
+public class BuyNItemsGetOneFree extends DiscountPolicy {
+double minimum;
+private double n;
+	
+	
+	public BuyNItemsGetOneFree(double n) {
+		this.n = n;
+	}
+
+public float computeDiscount(int count, float itemCost) {
+		int free;
+		free = (int) (count/n);
+		double discount = free * itemCost;
+		return (float) discount;
+	}
+
+	
+}
